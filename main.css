@@ -1,21 +1,26 @@
 @charset "utf-8";
 #logo {
-	width: auto;
-	float: left;
-	margin-right: 5px;
-	margin-left: 5px;
-	margin-bottom: 0px;
+    width: auto;
+    float: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: auto;
+    position: static;
 }
 body footer {
-	text-align: center;
-	bottom: 0px;
-	background-color: #000000;
-	color: #FFFFFF;
-	top: auto;
-	position: absolute;
-	right: 0vmax;
-	left: 0vmax;
-	font-style: italic;
+    text-align: center;
+    bottom: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    top: auto;
+    position: fixed;
+    right: 0vmax;
+    left: 0vmax;
+    font-style: italic;
+    height: 30px;
+    min-height: 30px;
 }
 body img {
 	width: auto;
@@ -25,17 +30,20 @@ body img {
 body {
 	background-image: url(img/effet%20typo%2001.jpg);
 }
+
 body iframe {
-	left: 0vmax;
-	right: 0vmax;
-	float: none;
-	display: block;
-	position: static;
-	padding-left: auto;
-	padding-right: auto;
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 5px;
+    left: 0vmax;
+    right: 0vmax;
+    float: none;
+    display: block;
+    position: static;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 body h1 {
@@ -70,27 +78,32 @@ body h1 {
 
 
 header nav{
-	margin: 20px auto;
-	color: white;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	right: 0vmax;
-	left: 0vmax;
+    margin: 20px auto;
+    color: white;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    left: 0vmax;
+    float: none;
+    right: 0vmax;
 }
 
 
 .menu {
-	display: inline-block;
+    display: inline-block;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 .menu a {
-	background-color: black;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-	text-decoration:none;
-	user-select: none;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 .sous-menu {
@@ -115,7 +128,9 @@ header nav{
 }
 
 .menu a:hover{
-	background-color: gray;
+    background-color: gray;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 /*
