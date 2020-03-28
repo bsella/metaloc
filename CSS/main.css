@@ -1,0 +1,68 @@
+header{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	height: 12%;
+}
+
+header img#logo{
+	float: left;
+	height: 90%;
+	margin-left: 10px;
+}
+
+body{
+    background-color: #f9f9f9;
+    text-align: left;
+    list-style-position: inside;
+    vertical-align: sub;
+    background-image: url(effet%20typo%2001.jpg);
+}
+
+footer{
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 8%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre{
+}
+
+.informations{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-image: none;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+}
+
+.lecteurMusique{
+}
+
+canvas#slideshow{
+	display: block;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 140px;
+}
