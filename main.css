@@ -94,8 +94,10 @@ nav{
 }
 
 aside{
-	position: absolute;
-	background-color: white;
+    position: absolute;
+    background-color: white;
+    bottom: auto;
+    top: auto;
 }
 
 .menu {
