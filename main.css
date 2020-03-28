@@ -1,7 +1,7 @@
 @charset "utf-8";
 #logo {
     width: auto;
-    float: none;
+    float: left;
     margin-right: 10px;
     margin-left: 20px;
     margin-top: 0px;
@@ -20,14 +20,15 @@ header{
 }
 
 footer {
-	text-align: center;
-	bottom: 0px;
-	background-color: #000000;
-	color: #FFFFFF;
-	top: auto;
-	position: absolute;
-	font-style: italic;
-	width: 100%;
+    text-align: center;
+    bottom: 0vmax;
+    background-color: #000000;
+    color: #FFFFFF;
+    top: auto;
+    position: fixed;
+    font-style: italic;
+    width: 100%;
+    float: none;
 }
 body img {
 	width: auto;
@@ -35,8 +36,8 @@ body img {
 }
 
 body {
-	background-image: url(img/effet%20typo%2001.jpg);
-	margin: 0;
+    margin: 0;
+    background-color: #A8A6A6;
 }
 
 body iframe {
@@ -69,19 +70,19 @@ body h1 {
 }
 
 #slideshow {
-	width: auto;
-	left: 0vmax;
-	right: 0vmax;
-	float: none;
-	display: block;
-	padding-left: auto;
-	padding-right: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 0px;
-	padding-top: 5px;
-	position: static;
-	outline: none;
+    width: 500px;
+    left: 0vmax;
+    right: 0vmax;
+    float: none;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    position: static;
+    outline: none;
 }
 
 nav{
@@ -94,11 +95,24 @@ nav{
 }
 
 aside{
-    position: absolute;
-    background-color: white;
-    bottom: auto;
-    top: auto;
+    position: fixed;
+    background-color: #A3A3A3;
+    bottom: 0vmax;
+    top: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    margin-top: 82px;
+    border: 5px solid #000000;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
 }
+
 
 .menu {
     display: inline-block;
