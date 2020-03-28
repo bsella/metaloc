@@ -39,7 +39,7 @@ function init(){
 	var loader = new STLLoader();
 	loader.load( './3D/metal_oc_typo2.stl', function ( geometry ) {
 		geometry.center();
-		var material = new MeshPhongMaterial( { color: 0x505050, specular: 0x111111, shininess: 200 } );
+		var material = new MeshPhongMaterial( { color: 0x101010, specular: 0x111111, shininess: 200 } );
 		var mesh = new Mesh( geometry, material );
 
 		mesh.rotation.x= -3.141/2;

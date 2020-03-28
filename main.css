@@ -1,16 +1,18 @@
 @charset "utf-8";
 #logo {
-	width: auto;
-	float: left;
-	margin-right: 5px;
-	margin-left: 5px;
-	margin-bottom: 0px;
+    width: auto;
+    float: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: auto;
+    position: static;
 }
 
 header{
 	left: 0;
 	width: 100%;
-	position: relative;
 	top: 0;
 	padding: 10px 0;
 	background-color: darkgray;
@@ -36,17 +38,20 @@ body {
 	background-image: url(img/effet%20typo%2001.jpg);
 	margin: 0;
 }
+
 body iframe {
-	left: 0vmax;
-	right: 0vmax;
-	float: none;
-	display: block;
-	position: static;
-	padding-left: auto;
-	padding-right: auto;
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 5px;
+    left: 0vmax;
+    right: 0vmax;
+    float: none;
+    display: block;
+    position: static;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 body h1 {
@@ -79,13 +84,13 @@ body h1 {
 	outline: none;
 }
 
-
 nav{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	margin: 20px auto;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	display: inline;
 }
 
 aside{
@@ -94,18 +99,22 @@ aside{
 }
 
 .menu {
-	display: inline-block;
+    display: inline-block;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 .menu a {
-	background-color: black;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-	text-decoration:none;
-	user-select: none;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 .sous-menu {
@@ -130,7 +139,9 @@ aside{
 }
 
 .menu a:hover{
-	background-color: gray;
+    background-color: gray;
+    left: 0vmax;
+    right: 0vmax;
 }
 
 /*
