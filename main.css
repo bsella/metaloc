@@ -128,7 +128,16 @@ aside{
     margin-left: 2px;
     float: left;
     color: #FFFFFF;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
 }
+body h2 {
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 
 .menu {
@@ -148,6 +157,9 @@ aside{
     user-select: none;
     left: 0vmax;
     right: 0vmax;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .sous-menu {
