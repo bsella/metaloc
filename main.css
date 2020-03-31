@@ -22,9 +22,7 @@
 .logofacebook img{
 	position: absolute;
 	display: block;
-	width: 100%;
 	height: 100%;
-	height: auto;
 	-webkit-transition: opacity .2s ease-in-out;
 	-moz-transition: opacity .2s ease-in-out;
 	-o-transition: opacity .2s ease-in-out;
@@ -77,18 +75,11 @@ body {
 }
 
 body iframe {
-    left: 0vmax;
-    right: 0vmax;
     float: none;
     display: block;
-    position: static;
-    padding-left: auto;
-    padding-right: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     border-radius: 5px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 body h1 {
@@ -110,17 +101,9 @@ body h1 {
 
 #slideshow {
     width: 500px;
-    left: 0vmax;
-    right: 0vmax;
-    float: none;
     display: block;
-    padding-left: auto;
-    padding-right: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0px;
-    padding-top: 5px;
-    position: static;
+    margin: 0 auto;
+    padding: 5px 0;
     outline: none;
 }
 
@@ -191,48 +174,3 @@ aside{
     left: 0vmax;
     right: 0vmax;
 }
-
-/*
-li a{
-	text-decoration:none;
-}
-
-header nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	left: 0vmax;
-	right: 0vmax;
-}
-header nav ul li{
-	margin-top: 2px;
-	margin-right: 2px;
-	margin-left: 2px;
-	margin-bottom: 2px;
-	padding: 0;
-	float: left;
-	width: 320px;
-	height: 40px;
-	background-color: black;
-	line-height: 40px;
-	text-align: center;
-	left: 0vmax;
-	right: 0vmax;
-	border-radius: 5px;
-}
-
-header nav ul li:hover{
-	background-color: gray;
-	display: block;
-	
-	left: 0vmax;
-	right: 0vmax;
-}
-header nav ul li ul li{
-	display: none;
-	left: 0vmax;
-	right: 0vmax;
-}
-header nav ul li:hover ul li{
-	display: block;
-}*/

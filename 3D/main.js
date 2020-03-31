@@ -44,15 +44,22 @@ function init(){
 
 		mesh.rotation.x= -3.141/2;
 		scene.add(mesh);
+		renderer.render(scene, camera);	
 	} );
 }
 
-function animate(){
-	requestAnimationFrame( animate );
-
-	controls.update(clock.getDelta());
-	renderer.render(scene, camera);
+var mouseDown= false;
+slideshow.onmousedown= function(){
+	mouseDown= true;
+};
+slideshow.onmouseup= function(){
+	mouseDown= false;
+};
+slideshow.onmousemove= function(){
+	if(mouseDown){
+		controls.update(clock.getDelta());
+		renderer.render(scene, camera);	
+	}
 }
 
 init();
-animate();
