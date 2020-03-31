@@ -72,6 +72,9 @@ body {
     margin: 0;
     background-color: #A8A6A6;
     text-align: center;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
 }
 
 body iframe {
@@ -136,6 +139,16 @@ body h2 {
     font-family: questrial;
     font-style: normal;
     font-weight: 400;
+    background-color: #4A4747;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    float: none;
+    text-align: center;
+    position: static;
+    width: 100px;
 }
 
 
