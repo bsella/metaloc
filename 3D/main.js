@@ -29,6 +29,8 @@ function init(){
 	camera.position.z = 6;
 	
 	controls = new OrbitControls( camera, renderer.domElement );
+	controls.enableZoom= false;
+	controls.enablePan= false;
 
 	renderer.setSize( slideshow.clientWidth, slideshow.clientHeight, false);
 
