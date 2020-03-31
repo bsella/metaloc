@@ -7,16 +7,33 @@
     top: auto;
     position: static;
     margin-left: 20px;
+	height: 60px;
 }
-#logofacebook {
+.logofacebook {
     float: right;
     margin-right: 10px;
-    width: 40px;
-    height: 40px;
     margin-top: 10px;
     margin-bottom: 0px;
-
+    overflow: auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
 }
+.logofacebook img{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	height: auto;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+.logofacebook img:hover{
+	opacity:0;
+}
+
 body article {
     text-align: center;
 }
@@ -27,10 +44,6 @@ body article img {
     margin-left: 180px;
     margin-right: 0px;
 }
-
-
-
-
 
 header{
 	left: 0;
@@ -52,10 +65,7 @@ footer {
     width: 100%;
     float: none;
 }
-body img {
-	width: auto;
-	height: 60px;
-}
+
 body article {
 }
 
@@ -120,22 +130,16 @@ nav{
 }
 
 aside{
-    position: fixed;
+    position: sticky;
     background-color: #80181e;
     bottom: 0vmax;
     top: 0px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    height: 200px;
-    margin-top: 82px;
+    padding: 10px;
+    margin-top: 2px;
     border: 5px solid #000000;
     text-align: left;
     margin-left: 2px;
-    margin-right: auto;
-    float: none;
-    clear: none;
+    float: left;
     color: #FFFFFF;
 }
 
