@@ -73,6 +73,7 @@ body article {
 body {
     margin: 0;
     background-color: #A8A6A6;
+    text-align: center;
 }
 
 body iframe {
