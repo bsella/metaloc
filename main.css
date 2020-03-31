@@ -92,17 +92,20 @@ body iframe {
 }
 
 body h1 {
-	text-align: center;
-	color: #FFFFFF;
-	left: 0vmax;
-	right: 0vmax;
-	float: none;
-	display: block;
-	position: static;
-	padding-left: auto;
-	padding-right: auto;
-	margin-right: auto;
-	margin-left: auto;
+    text-align: center;
+    color: #FFFFFF;
+    left: 0vmax;
+    right: 0vmax;
+    float: none;
+    display: block;
+    position: static;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #slideshow {
