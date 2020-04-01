@@ -51,17 +51,25 @@ function init(){
 }
 
 var mouseDown= false;
-slideshow.onmousedown= function(){
-	mouseDown= true;
-};
-slideshow.onmouseup= function(){
-	mouseDown= false;
-};
-slideshow.onmousemove= function(){
+function move(){
 	if(mouseDown){
 		controls.update(clock.getDelta());
 		renderer.render(scene, camera);	
 	}
 }
+function up(){
+	mouseDown= false;
+}
+function down(){
+	mouseDown= true;
+}
+
+slideshow.ontouchstart= down;
+slideshow.ontouchend= up;
+slideshow.ontouchmove= move;
+
+slideshow.onmousedown= down;
+slideshow.onmouseup= up;
+slideshow.onmousemove= move;
 
 init();
