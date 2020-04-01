@@ -114,6 +114,7 @@ body h1 {
     margin: 0 auto;
     padding: 5px 0;
     outline: none;
+    filter: drop-shadow(0 0 5px black);
 }
 
 nav{
