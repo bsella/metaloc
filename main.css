@@ -167,7 +167,9 @@ body h2 {
 }
 
 .sous-menu {
-	display: none;
+	opacity: 0;
+	pointer-events: none;
+	display: block;
 	position: absolute;
 }
 
@@ -179,7 +181,9 @@ body h2 {
 }
 
 .menu:hover .sous-menu{
-	display: block;
+	pointer-events: auto;
+	opacity: 1;
+	transition: .3s;
 }
 
 .menu a:hover{
