@@ -111,10 +111,7 @@ body h1 {
 }
 
 nav{
-	left: 50%;
-	transform: translateX(-50%);
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	display: inline;
+	display: inline-block;
 }
 
 aside{
