@@ -87,8 +87,8 @@ body iframe {
     float: none;
     display: block;
     margin: 0 auto;
-    border-radius: 5px;
-    padding: 50px 0;
+    border-radius: 10px;
+    padding: 0;
 }
 
 body h1 {
