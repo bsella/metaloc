@@ -51,25 +51,31 @@ function init(){
 }
 
 var mouseDown= false;
-function move(){
+
+slideshow.ontouchstart= function(){
+	mouseDown= true;
+};
+slideshow.ontouchend= function(){
+	mouseDown= false;
+};
+slideshow.ontouchmove= function(){
 	if(mouseDown){
 		controls.update(clock.getDelta());
 		renderer.render(scene, camera);	
 	}
-}
-function up(){
-	mouseDown= false;
-}
-function down(){
+};
+
+slideshow.onmousedown= function(){
 	mouseDown= true;
-}
-
-slideshow.ontouchstart= down;
-slideshow.ontouchend= up;
-slideshow.ontouchmove= move;
-
-slideshow.onmousedown= down;
-slideshow.onmouseup= up;
-slideshow.onmousemove= move;
+};
+slideshow.onmouseup= function(){
+	mouseDown= false;
+};
+slideshow.onmousemove= function(){
+	if(mouseDown){
+		controls.update(clock.getDelta());
+		renderer.render(scene, camera);	
+	}
+};
 
 init();
