@@ -76,12 +76,6 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-body section p {
-    text-align: center;
-    border-radius: 0;
-}
-
-
 
 body iframe {
     float: none;
@@ -108,13 +102,19 @@ body h1 {
     font-weight: 400;
 }
 
+@keyframes glow{
+	0%  {filter: drop-shadow(0 0 5px black);}
+	50% {filter: drop-shadow(0 0 10px black);}
+	100%{filter: drop-shadow(0 0 5px black);}
+}
+
 #slideshow {
     width: 500px;
     display: block;
     margin: 0 auto;
     padding: 5px 0;
     outline: none;
-    filter: drop-shadow(0 0 5px black);
+    animation: glow 1s infinite;
 }
 
 nav{
@@ -206,3 +206,12 @@ section.actu{
 	background-color: aliceblue
 }
 
+section.actu p{
+	margin: 0;
+	padding: 16px 0;
+    text-align: center;
+}
+section.actu h2{
+	margin: 0 auto;
+    text-align: center;	
+}
