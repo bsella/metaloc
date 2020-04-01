@@ -108,10 +108,8 @@ body h1 {
 }
 
 nav{
-	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	margin: 20px auto;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	display: inline;
 }
@@ -133,8 +131,6 @@ aside{
 
 .menu {
     display: inline-block;
-    left: 0vmax;
-    right: 0vmax;
 }
 
 .menu a {
@@ -142,20 +138,15 @@ aside{
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
     border-radius: 5px;
     text-decoration: none;
     user-select: none;
-    left: 0vmax;
-    right: 0vmax;
+    display: inline-block;
 }
 
 .sous-menu {
 	display: none;
 	position: absolute;
-	min-width: 160px;
-	z-index: 1;
-	margin-top: 16px;
 }
 
 .sous-menu a {
