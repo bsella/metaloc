@@ -70,12 +70,18 @@ body article {
 
 body {
     margin: 0;
-    background-color: #A8A6A6;
-    text-align: center;
+    text-align: left;
     font-family: questrial;
     font-style: normal;
     font-weight: 400;
+    background-repeat: no-repeat;
+    font-size: larger;
+    background-color: #DBDBDB;
 }
+body img {
+    border-radius: 5px;
+}
+
 
 body iframe {
     float: none;
@@ -205,23 +211,36 @@ body h2 {
 }
 
 section.actu{
-	background-color: aliceblue
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 2px 2px #A8A6A6;
+    box-shadow: 2px 2px 2px 2px #A8A6A6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
+
 
 section.actu p{
     margin: 0;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 16px;
-    border-top-width: 3px;
-    border-top-style: solid;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    text-align: justify;
+    font-style: normal;
+    font-size: large;
+    text-shadow: 0px 0px;
+    height: 20px;
 }
-section.actu h2{
-	margin: 0 auto;
-    text-align: center;	
-}
+
 
 .actuflex {
 	display: flex;
+}
+body h1 {
+    color: #000000;
 }
