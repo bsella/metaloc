@@ -127,7 +127,8 @@ body h1 {
 }
 
 nav{
-	display: inline-block;
+	display: table;
+	margin: auto;
 }
 
 aside{
