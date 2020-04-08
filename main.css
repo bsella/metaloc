@@ -2,18 +2,14 @@
 #logo {
     width: auto;
     float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0 20px;
     top: auto;
-    position: static;
     margin-left: 20px;
 	height: 60px;
 }
 .logofacebook {
     float: right;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 10px;
     overflow: auto;
     width: 40px;
     height: 40px;
@@ -23,24 +19,10 @@
 	position: absolute;
 	display: block;
 	height: 100%;
-	-webkit-transition: opacity .2s ease-in-out;
-	-moz-transition: opacity .2s ease-in-out;
-	-o-transition: opacity .2s ease-in-out;
 	transition: opacity .2s ease-in-out;
 }
 .logofacebook img:hover{
 	opacity:0;
-}
-
-body article {
-    text-align: center;
-}
-body article img {
-    height: auto;
-    width: auto;
-    float: none;
-    margin-left: 180px;
-    margin-right: 0px;
 }
 
 header{
@@ -64,10 +46,6 @@ footer {
     float: none;
 }
 
-body article {
-}
-
-
 body {
     margin: 0;
     text-align: left;
@@ -78,12 +56,12 @@ body {
     font-size: larger;
     background-color: #DBDBDB;
 }
-body img {
+
+img {
     border-radius: 5px;
 }
 
-
-body iframe {
+iframe {
     float: none;
     display: block;
     margin: 0 auto;
@@ -93,9 +71,8 @@ body iframe {
     height: 600px;
 }
 
-body h1 {
+h1 {
     text-align: center;
-    color: #FFFFFF;
     left: 0vmax;
     right: 0vmax;
     float: none;
@@ -108,6 +85,7 @@ body h1 {
     font-family: questrial;
     font-style: normal;
     font-weight: 400;
+    color: #000000;
 }
 
 @keyframes glow{
@@ -127,8 +105,11 @@ body h1 {
 }
 
 nav{
-	display: table;
-	margin: auto;
+	text-align: center;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 82px;
 }
 
 aside{
@@ -147,7 +128,8 @@ aside{
     font-style: normal;
     font-weight: 400;
 }
-body h2 {
+
+h2 {
     font-family: questrial;
     font-style: normal;
     font-weight: 400;
@@ -165,52 +147,6 @@ body h2 {
     margin-left: auto;
 }
 
-
-
-.menu {
-    display: inline-block;
-}
-
-.menu a {
-    background-color: #80181e;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    user-select: none;
-    display: inline-block;
-    font-family: questrial;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.sous-menu {
-	opacity: 0;
-	pointer-events: none;
-	display: block;
-	position: absolute;
-}
-
-.sous-menu a {
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	margin: 2px;
-}
-
-.menu:hover .sous-menu{
-	pointer-events: auto;
-	opacity: 1;
-	transition: .3s;
-}
-
-.menu a:hover{
-    background-color: #60181e;
-    left: 0vmax;
-    right: 0vmax;
-}
-
 section.actu{
     padding-left: 30px;
     padding-right: 30px;
@@ -223,7 +159,6 @@ section.actu{
     margin-left: 60px;
     margin-right: 60px;
 }
-
 
 section.actu p{
     margin: 0;
@@ -238,14 +173,11 @@ section.actu p{
     height: 20px;
 }
 
-
 .actuflex {
 	display: flex;
 }
-body h1 {
-    color: #000000;
-}
-body form {
+
+form {
     margin-right: auto;
     margin-left: auto;
     width: 400px;

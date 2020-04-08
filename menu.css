@@ -1,0 +1,88 @@
+#menu-mobile{
+	display: none;
+}
+
+#menu-mobile a {
+    background-color: #80181e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    display: block;
+    font-family: questrial;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a {
+    background-color: #80181e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    display: inline-block;
+}
+
+.sous-menu {
+	opacity: 0;
+	pointer-events: none;
+	display: block;
+	position: absolute;
+}
+
+.sous-menu a {
+	padding: 12px 16px;
+	display: block;
+	margin: 2px;
+}
+
+.menu:hover .sous-menu{
+	pointer-events: auto;
+	opacity: 1;
+	transition: .3s;
+}
+
+.menu a:hover{
+    background-color: #60181e;
+    left: 0vmax;
+    right: 0vmax;
+}
+
+input.tm{
+    display: none;
+}
+
+@media only screen and (orientation: portrait){
+	#menu-mobile{
+		display: grid;
+	}
+    .menu{
+        display: block;
+        margin: 2px 0;
+    }
+    .menu a{
+        display: block;
+    }
+    .sous-menu{
+        position: static;
+        opacity: 1;
+    }
+    .sous-menu a{
+        background-color: #60181e;
+    }
+    
+    .menu:hover .sous-menu{}
+    
+    
+    input.tm:checked + div{
+        display: none;
+    }
+}

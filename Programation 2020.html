@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>metal'oc</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
-<meta name="description" content="Description">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<meta name="description" content="Description">
 </head>
 <body>
 
@@ -15,27 +16,39 @@
 		<img src="img/facebook.png">
 	</a>
 	<nav>
-		<div class=menu>
-			<a href="index.html">Home</a>
-			<div class=sous-menu>
-				<a href="Mentions légale.html">Mentions légales</a>
+		<label id="menu-mobile" for="tm0">
+			<a>Metaloc</a>
+		</label>
+		<input type="checkbox" class=tm id="tm0" checked>
+		<div id=menus>
+			<div class=menu>
+				<a href="index.html">Home</a>
+				<div class=sous-menu>
+					<a href="Mentions légale.html">Mentions légales</a>
+				</div>
 			</div>
-		</div>
-		<div class=menu>
-			<a>Programmation</a>
-			<div class=sous-menu>
-				<a href="Programation 2020.html">Programmation 2020</a>
-				<a href="Programation 2019.html">Programmation 2019</a>
+			<div class=menu>
+				<label for="tm1">
+					<a>Programmation</a>
+				</label>
+				<input type="checkbox" class=tm id="tm1" checked>
+				<div class=sous-menu id=smProgrammation>
+					<a href="Programation 2020.html">Programmation 2020</a>
+					<a href="Programation 2019.html">Programmation 2019</a>
+				</div>
 			</div>
-		</div>
-		<div class=menu>
-			<a href="Stands.html">Stands</a>
-		</div>
-		<div class=menu>
-			<a>Informations pratiques</a>
-			<div class=sous-menu>
-				<a href="Informations pratiques_comment venir.html">Comment venir</a>
-				<a href="Informations pratiques_contacts.html">Contact</a>
+			<div class=menu>
+				<a href="Stands.html">Stands</a>
+			</div>
+			<div class=menu>
+				<label for="tm2">
+					<a>Informations pratiques</a>
+				</label>
+				<input type="checkbox" class=tm id="tm2" checked>
+				<div class=sous-menu id=smInfo>
+					<a href="Informations pratiques_comment venir.html">Comment venir</a>
+					<a href="Informations pratiques_contacts.html">Contact</a>
+				</div>
 			</div>
 		</div>
 	</nav>
