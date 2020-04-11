@@ -62,7 +62,7 @@ input.tm{
 
 @media only screen and (orientation: portrait){
 	#menu-mobile{
-		display: grid;
+		display: block;
 	}
     .menu{
         display: block;
